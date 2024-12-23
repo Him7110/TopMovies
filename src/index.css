@@ -59,6 +59,10 @@ body {
   position: relative;
 }
 
+.box::-webkit-scrollbar {
+  display: none;  /* For Chrome, Safari, and Opera */
+}
+
 .loader {
   text-align: center;
   text-transform: uppercase;
